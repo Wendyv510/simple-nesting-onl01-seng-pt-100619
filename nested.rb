@@ -1,3 +1,5 @@
+require relative 'spec/nested_spec.rb'
+
 
 def hopper
 	programmer_hash = 
@@ -131,4 +133,5 @@ def adding_to_dennis
         }
      }
 
+programmer_hash[:dennis_ritchie][:languages]<< "assembly"
 end
